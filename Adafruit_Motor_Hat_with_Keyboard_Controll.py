@@ -93,7 +93,7 @@ def rotateLeft():
 
 pygame.init()
 tscreen = pygame.display.set_mode([400,400]) #this seems to work without a montior connected and also when .py is run via SSH
-pygame.display.set_caption("Adafruit Motor Hat controller")
+pygame.display.set_caption("Adafruit Motor Hat Keyboard controller")
 
 def funcPygameKey(events):
     # Variables accessible outside this function
